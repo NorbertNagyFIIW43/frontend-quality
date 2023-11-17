@@ -1,0 +1,44 @@
+.profile {
+	position: fixed;
+	height: 240px;
+	width: 300px;
+	background-color: #dd8200;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	right: 20px;
+	z-index: 5;
+	top: 110px;
+	align-items: center;
+}
+.profile-buttons {
+	display: flex;
+	flex-direction: column;
+}
+.profile-buttons > button {
+	background-color: #ffffff;
+	border: #b3cb2d 2px solid;
+	border-radius: 5px;
+	font-size: large;
+	width: 200px;
+	height: 45px;
+	color: black;
+	margin-bottom: 25px;
+}
+
+.profile-buttons > button:hover {
+	cursor: pointer;
+	background-color: #b3cb2d;
+	color: #ffffff;
+}
+.profile-close {
+	color: #ffffff !important;
+	width: 40px;
+	padding-bottom: 0px !important;
+	position: relative;
+	right: -120px;
+}
+
+.profile-currentUser {
+	color: #ffffff;
+}

@@ -1,0 +1,47 @@
+.chart-container {
+	background-color: #cccccc;
+	position: absolute;
+	width: 80vw;
+}
+
+.greeting {
+	margin-top: 0;
+	color: black;
+	padding-top: 20px;
+}
+
+.chart-container p {
+	width: 65vw;
+	justify-content: center;
+	text-align: justify;
+	left: 7vw;
+	color: black;
+	position: relative;
+}
+
+.button-container {
+	display: flex;
+	width: 80vw;
+	text-align: center;
+	background-color: #dd8200;
+}
+.button-container button {
+	border: #b3cb2d 2px solid;
+	border-radius: 25px;
+	width: 8vw;
+	height: 5vh;
+	font-size: large;
+	background-color: #ffffff;
+	color: black;
+	margin-inline: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+	left: 10vw;
+}
+
+.button-container button:hover {
+	cursor: pointer;
+	background-color: #b3cb2d;
+	color: #ffffff;
+}

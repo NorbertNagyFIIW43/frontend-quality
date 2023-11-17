@@ -1,0 +1,42 @@
+.content-cards {
+	max-height: 95vh;
+}
+
+.card {
+	width: 300px;
+	height: 350px;
+	margin: 40px;
+	border: solid #b3cb2d 3px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+}
+
+.card-header {
+	padding: 8px;
+}
+
+.card-content {
+	justify-content: baseline;
+	max-height: 220px;
+	overflow-y: scroll;
+}
+.card-button {
+	border: #b3cb2d 2px solid;
+	border-radius: 25px;
+	width: 150px;
+	background-color: #b3cb2d;
+	color: #ffffff;
+	height: 40px;
+	font-size: large;
+	position: absolute;
+	bottom: 20px;
+	left: 75px;
+}
+
+.card-button:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}

@@ -1,0 +1,105 @@
+.description {
+	height: 100vh;
+	clip-path: polygon(0 0, 55% 0, 45% 100%, 0% 100%);
+	background-color: #dd8200;
+}
+
+.description::before {
+	content: '';
+	width: 40vw;
+	display: flex;
+	height: 35vh;
+	background: #ffcc84;
+	bottom: 0px;
+	left: 20px;
+	position: absolute;
+	clip-path: polygon(30% 0%, 0% 100%, 100% 100%);
+}
+.description::after {
+	content: '';
+	width: 40vw;
+	display: flex;
+	height: 30vh;
+	background: #f7a83a;
+	bottom: 0px;
+	position: absolute;
+	clip-path: polygon(21% 0%, 0% 100%, 100% 100%);
+}
+
+.login {
+	position: absolute;
+	right: 15vw;
+	top: 30vh;
+	min-height: 410px;
+	height: 40vh;
+	width: 25vw;
+	background-color: #dd8200;
+	border-radius: 5px;
+}
+.login-form {
+	text-align: center;
+}
+
+.login-form input {
+	background-color: #ffffff;
+	border: #b3cb2d 2px solid;
+	border-radius: 5px;
+	font-size: large;
+	width: 18vw;
+	height: 5vh;
+	margin-bottom: 5vh;
+	color: black;
+}
+
+.login-form button {
+	border: #b3cb2d 2px solid;
+	border-radius: 25px;
+	width: 8vw;
+	height: 5vh;
+	font-size: large;
+	background-color: #ffffff;
+	color: black;
+}
+
+.login-form button:hover {
+	cursor: pointer;
+	background-color: #b3cb2d;
+	color: #ffffff;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 3vh;
+	font-size: xx-large;
+}
+
+label {
+	text-align: left !important;
+}
+.description-text {
+	position: absolute;
+	top: 15vh;
+	width: 28vw;
+	text-align: justify;
+	left: 8vw;
+}
+h1 {
+	text-align: center;
+}
+
+.description-logo {
+	position: relative;
+	top: -80px;
+	text-align: center;
+	left: -28vw;
+}
+
+.errorMsg {
+	text-align: center;
+	color: #d91e18;
+	position: absolute;
+	font-weight: 700;
+	top: -6vh;
+	left: 50%;
+	transform: translateX(-50%);
+}

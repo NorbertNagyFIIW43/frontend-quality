@@ -1,0 +1,12 @@
+.leftChart-container {
+	width: 45vw;
+	position: relative;
+	left: 10px;
+}
+
+.rightChart-container {
+	width: 45vw;
+	position: absolute;
+	right: 10px;
+	top: 120px;
+}
