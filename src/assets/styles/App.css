@@ -5,14 +5,14 @@
 .background {
 	position: absolute;
 	width: 99.1vw;
-	height: 100vh;
+	height: 108vh;
 	top: 0px;
 	overflow: hidden;
 	z-index: -10;
 }
 .content {
 	width: 80vw;
-	min-height: 92vh;
+	min-height: 94vh;
 	overflow: hidden;
 	margin: 0 auto;
 	background-color: #eaeaea;
