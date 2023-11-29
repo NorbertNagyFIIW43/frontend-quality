@@ -15,6 +15,7 @@ body {
 	padding: 0 1rem;
 	height: 100px;
 	text-align: right;
+	min-width: 1280px;
 }
 .nav a {
 	color: inherit;
@@ -34,4 +35,9 @@ body {
 	color: #fff;
 	width: 60px;
 	height: 60px;
+}
+
+.nav-button {
+	border: 0px !important;
+	font-size: 25px;
 }

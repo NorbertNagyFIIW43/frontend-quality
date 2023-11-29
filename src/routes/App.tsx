@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import NavBar from '../components/Navbar';
 import Login from '../pages/Login';
 import Templates from '../pages/Templates';
+import Dashboard from '../pages/Dashboard';
 
 function App() {
 	const currentPath = useLocation();
@@ -17,7 +18,8 @@ function App() {
 				<Route path="/home" element={<Home />} />
 				<Route path="/charts" element={<Charts />} />
 				<Route path="/login" element={<Login />} />
-				<Route path="/templates" element={<Templates />} />
+				<Route path="/reports" element={<Templates />} />
+				<Route path="/dashboard" element={<Dashboard />} />
 			</Routes>
 		</>
 	);

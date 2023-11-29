@@ -1,0 +1,54 @@
+.template-selector {
+	position: relative;
+	width: 75vw;
+	height: 15vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+}
+.template-selector-toolbar-button {
+	background-color: #b3cb2d;
+	color: white;
+}
+.template-selector-toolbar-button:hover {
+	background-color: #cfeb33;
+}
+.template-selector-toolbar-filter {
+	position: absolute;
+	align-self: right;
+	right: 2vw;
+	background-color: #bbb;
+	border-radius: 5px;
+}
+
+.template-selector-toolbar-menu {
+	margin-top: 5px;
+	left: 20px;
+}
+
+.template-selector-stack {
+	margin-left: 1vw;
+	margin-top: 1vh;
+}
+
+.tableContainer {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	width: 75vw;
+}
+.tableContainer-table {
+	background-color: white;
+	color: black;
+	width: 75vw;
+}
+
+.tableContainer-table-header {
+	background-color: #dd8200;
+}
+
+.tableContainer-table-header-text {
+	color: #fff;
+	font-weight: bold;
+}

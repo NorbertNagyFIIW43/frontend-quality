@@ -19,13 +19,16 @@ const NavBar = () => {
 				<div>
 					<ButtonGroup variant="text" size="large" color="primary">
 						<Link to="/home">
-							<Button sx={{ border: '0px !important', fontSize: 25 }}>Home</Button>
+							<Button className="nav-button">Home</Button>
 						</Link>
 						<Link to="/charts">
-							<Button sx={{ border: '0px !important', fontSize: 25 }}>Charts</Button>
+							<Button className="nav-button">Charts</Button>
 						</Link>
-						<Link to="/templates">
-							<Button sx={{ border: '0px !important', fontSize: 25 }}>Templates</Button>
+						<Link to="/reports">
+							<Button className="nav-button">Reports</Button>
+						</Link>
+						<Link to="/dashboard">
+							<Button className="nav-button">Dashboard</Button>
 						</Link>
 						<IconButton className="nav-icon" onClick={handleOpen}>
 							<AccountBoxIcon />

@@ -16,4 +16,15 @@
 	overflow: hidden;
 	margin: 0 auto;
 	background-color: #eaeaea;
+	box-shadow: 0px 10px 15px #888;
+	min-width: 600px;
+}
+
+.chartContent {
+	width: 1600px;
+	min-height: 94vh;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #eaeaea;
+	box-shadow: 0px 10px 15px #888;
 }

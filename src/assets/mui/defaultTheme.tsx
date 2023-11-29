@@ -14,7 +14,6 @@ export const defaultTheme = createTheme({
 					listStyle: 'none',
 					display: 'flex',
 					gap: '1rem',
-					justifyContent: 'center',
 					height: '100%',
 				},
 			},

@@ -1,12 +1,64 @@
-.leftChart-container {
-	width: 45vw;
+.toolbar {
 	position: relative;
-	left: 10px;
+	width: 100%;
+}
+.toolbar-buttons {
+	position: relative;
+}
+.toolbar-buttons-button {
+	color: #b3cb2d;
+	border-right: 0px !important;
+	border-bottom: 2px solid #b3cb2d !important;
+	font-size: large;
 }
 
-.rightChart-container {
-	width: 45vw;
+.toolbar-filter {
 	position: absolute;
-	right: 10px;
-	top: 120px;
+	align-self: right;
+	right: 2vw;
+	background-color: #bbb;
+	border-radius: 5px;
+}
+
+.filter-datePickers-datePicker {
+	margin-bottom: 5px;
+}
+
+.filter-datePickers-datePicker .Mui-selected {
+	background-color: #b3cb2d !important;
+}
+
+.chartContainer {
+	margin-top: 4vh;
+	position: relative;
+	width: 100%;
+	padding-left: 0vw !important;
+	margin-left: 3vw;
+}
+.chartContainer-barChart {
+	position: relative;
+	width: 550px;
+}
+
+.chartContainer-lineChart {
+	position: relative;
+	margin-top: 70px;
+	width: 1000px;
+}
+
+.chartContainer-pieChart {
+	position: absolute;
+	width: 400px;
+	right: 200px;
+	height: 300px;
+	padding-top: 50px;
+	top: 0px;
+}
+
+.chartContainer-horizontalChart {
+	position: absolute;
+	width: 400px;
+	right: -250px;
+	top: 0px;
+	height: 670px;
 }
