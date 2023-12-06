@@ -15,7 +15,7 @@ body {
 	padding: 0 1rem;
 	height: 100px;
 	text-align: right;
-	min-width: 1280px;
+	min-width: 800px;
 }
 .nav a {
 	color: inherit;
@@ -30,14 +30,58 @@ body {
 	position: relative;
 	top: 7px;
 }
-
-.nav-icon > svg {
-	color: #fff;
-	width: 60px;
-	height: 60px;
+.menuDrawer-buttonGroup-button {
+	color: black;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.nav-button {
-	border: 0px !important;
-	font-size: 25px;
+.active {
+	background-color: #b3cb2d !important;
+	border-radius: 5px !important;
+	color: #fff;
+}
+
+@media (min-width: 1200px) {
+	.nav-buttonGroup-account > svg {
+		color: #fff;
+		width: 60px;
+		height: 60px;
+	}
+
+	.nav-buttonGroup-button {
+		border: 0px !important;
+		font-size: 25px;
+	}
+
+	.nav-buttonGroup-small {
+		display: none;
+	}
+	.menuDrawer {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.nav-buttonGroup-large {
+		display: none;
+	}
+
+	.nav-buttonGroup-button {
+		border: 0px !important;
+		font-size: 25px;
+	}
+
+	.nav-buttonGroup-small svg {
+		color: #fff;
+		width: 60px;
+		height: 60px;
+	}
+	.menuDrawer-buttonGroup {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 }

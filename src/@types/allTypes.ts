@@ -9,6 +9,13 @@ export enum HomeChart {
 	CHART1,
 	CHART2,
 }
+export enum NavButtons {
+	HOME,
+	REPORTS,
+	CHARTS,
+	TABLES,
+	DASHBOARD,
+}
 
 export type FuncProps = {
 	handleOpen: (event: React.MouseEvent<HTMLElement>) => void;
